@@ -1,0 +1,19 @@
+# ملفات النظام
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# بيئة افتراضية
+venv/
+.env/
+
+# نتائج وموديلات
+#models/*.pkl
+#results/
+*.csv
+
+# ملفات جوبتر نوتبوك مؤقتة
+.ipynb_checkpoints/
+.vs/
