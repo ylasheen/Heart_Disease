@@ -29,8 +29,7 @@ Heart_Disease_Project/
 │   ├── predictions_test.csv
 │   ├── roc_curve.png
 │   └── confusion_matrix.png
-├── ui/                    # Streamlit web app
-│   └── app.py
+├── app.py                 # Streamlit web app
 └── requirements.txt       # Project dependencies
 
 ---
@@ -51,7 +50,7 @@ pip install -r requirements.txt
    
 4. Run the Streamlit web app:
    
-   streamlit run ui/app.py
+   streamlit run app.py
    
 5. Open the browser at the URL shown in the terminal (usually http://localhost:8501).
 
